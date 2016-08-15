@@ -1,0 +1,33 @@
+{
+  "name": "market-info-Pôle-Emploi",
+  "version": "0.1.0",
+  "description": "A simple crawler to get you Franch employment market information",
+  "author": "Hugo Villain <hugo@whire.me>",
+  "scripts": {
+    "start": "node index.js",
+    "start-verbose": "node index.js verbose:true"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/THook/crawler-poleEmploi"
+  },
+  "keywords": [
+    "Pôle Emploi",
+    "IMT",
+    "crawler",
+    "emploi",
+    "employment",
+    "marché du travail"
+  ],
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "jsonfile": "^2.3.1",
+    "neo4j": "^2.0.0-RC2",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "preferGlobal": true,
+  "private": true,
+  "license": "MIT"
+}

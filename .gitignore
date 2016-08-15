@@ -1,0 +1,4 @@
+results
+.DS*
+.App*
+node_modules

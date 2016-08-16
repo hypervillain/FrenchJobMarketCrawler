@@ -46,7 +46,6 @@ Here is a WYSIWYG :
      code: this is your OGR code, use at your own convenience or not (probably not)
      zone: the state department where we got the data from
    }
-
    */
 ```
 
@@ -55,15 +54,15 @@ Here is a WYSIWYG :
 
 simply
 
- npm install
+ >npm install
 
 then,
 
- npm start
+ >npm start
 
 to launch it silently, or
 
- npm run verbose
+ >npm run verbose
 
 to get the logs of each added file.
 

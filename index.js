@@ -200,7 +200,7 @@ function getInfoByZoneAndCode(code, zone, cb) {
 			// write to corresponding file
 			// ie. results/12546:75.json
 			// handle this at your own convenience
-			writeFileInSync(parser, "results/" + code + ':' + zone + ".json");
+			writeFileInSync(parser, "dest/" + code + ':' + zone + ".json");
 
 			return cb();
 	});

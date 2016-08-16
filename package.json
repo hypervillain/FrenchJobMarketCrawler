@@ -1,11 +1,11 @@
 {
-  "name": "market-info-Pôle-Emploi",
+  "name": "marketinfopoleemploi",
   "version": "0.1.0",
   "description": "A simple crawler to get you Franch employment market information",
   "author": "Hugo Villain <hugo@whire.me>",
   "scripts": {
-    "start": "node index.js",
-    "start-verbose": "node index.js verbose:true"
+    "start": "mkdir dest;node index.js",
+    "verbose": "mkdir dest;node index.js verbose:true"
   },
   "main": "index.js",
   "repository": {
